@@ -10,6 +10,7 @@ body {
   background-color: white;
   border-radius: 20px;
   padding: 16px 16px 40px 16px;
+  width: 100%;
   max-width: 288px;
   text-align: center;
 }
