@@ -1,25 +1,36 @@
 body {
   background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 16px 16px 40px 16px;
+  max-width: 320px;
+  text-align: center;
 }
 
 img {
-  border-radius: 20px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
 }
 
 h5 {
   color: rgb(31, 49, 79);
   font-size: 15px;
-  text-align: center;
 }
 
 p {
   color: rgb(104, 119, 141);
-  text-align: center;
 }
 
 .attribution {
   font-size: 11px;
-  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
