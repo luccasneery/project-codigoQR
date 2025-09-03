@@ -10,26 +10,36 @@ body {
   background-color: white;
   border-radius: 20px;
   padding: 16px 16px 40px 16px;
-  max-width: 320px;
+  max-width: 288px;
   text-align: center;
 }
 
-img {
-  display: block;
-  margin: auto;
+.card img {
+  width: 100%;
   border-radius: 10px;
+  margin-bottom: 24px;
 }
 
-h5 {
+.card h2 {
   color: rgb(31, 49, 79);
-  font-size: 15px;
+  /* width: 256px;
+  height: 52px; */
+  font-size: 20px;
+  margin: auto;
+  padding: 0 16px 0 16px;
+  text-align: center;
 }
 
-p {
+.card p {
   color: rgb(104, 119, 141);
+  /*width: 256px;
+  height: 61px;*/
+  font-size: 15px;
+  padding: 0 16px 16px 16px;
 }
 
 .attribution {
+  color: rgb(104, 119, 141);
   font-size: 11px;
 }
 .attribution a {
